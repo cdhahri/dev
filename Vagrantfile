@@ -12,7 +12,8 @@ sudo pip3 install nose \
                   numpy \
                   scipy \
                   scikit-learn \
-                  Theano
+                  Theano \
+                  tensorflow
 SCRIPT
 
 Vagrant.configure("2") do |cluster|
